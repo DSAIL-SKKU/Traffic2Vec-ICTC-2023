@@ -50,8 +50,8 @@ The file takes models trained from pre-training and conducts transfer learning o
 
 
 <br/>
-The left figure below defines the **IP2Vec** architecture in `ip2Vec/model.py`.
-
+The left figure below defines the **IP2Vec** architecture in folder `ip2Vec/model.py`.
+<br/>
 <img width="450" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/eef5f203-230a-44fe-b605-2ca1965be223">
 
 <br/>
@@ -74,11 +74,12 @@ python GAN/train_GAN.py bulk_emb
 
 —datasets: A factor that selects data to train GAN.
 
-—algos: A factor that selects the GAN model to be used for generation. Default value is all four  models of GAN.
+—algos: A factor that selects the GAN model to be used for generation. Default value is all four models of GAN.
 
-<br/>
+<br/><br/>
 
 The right figure below defines the **GAN** architecture in folder `GAN`.
+<br/>
 <img width="450" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/eef5f203-230a-44fe-b605-2ca1965be223">
 
 
