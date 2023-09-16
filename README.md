@@ -51,6 +51,7 @@ The file takes models trained from pre-training and conducts transfer learning o
 
 <br/>
 The left figure below defines the **IP2Vec** architecture in `ip2Vec/model.py`.
+
 <img width="450" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/eef5f203-230a-44fe-b605-2ca1965be223">
 
 <br/>
