@@ -14,7 +14,7 @@ The dataset comprises network packets gathered between February 20th and October
 - *Bulk*: Bulk data transfer activity consists of traffic to applications that use significant portions of the network’s bandwidth for large data file transfers, e.g., large file downloads from Dropbox.
 - *Video*: Video playback activity includes traffic from applications consuming videos (e.g., from Twitch or YouTube).
 - *Web*: Web browsing consists of traffic for all activities within a web page such as downloading images or ads.
-
+For more information, please contact us at @DSAIL-SKKU.
 
 ## Run
 
@@ -55,7 +55,6 @@ The file takes models trained from pre-training and conducts transfer learning o
 
 The left figure below defines the **IP2Vec** architecture in folder `ip2Vec/model.py`.
 
-<br/>
 <img width="450" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/eef5f203-230a-44fe-b605-2ca1965be223">
 
 <br/>
