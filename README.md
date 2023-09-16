@@ -51,6 +51,7 @@ The file takes models trained from pre-training and conducts transfer learning o
 
 <br/>
 The left figure below defines the **IP2Vec** architecture in `ip2Vec/model.py`.
+<img width="450" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/eef5f203-230a-44fe-b605-2ca1965be223">
 
 <br/>
 
@@ -73,14 +74,16 @@ python GAN/train_GAN.py bulk_emb
 —datasets: A factor that selects data to train GAN.
 
 —algos: A factor that selects the GAN model to be used for generation. Default value is all four  models of GAN.
+
 <br/>
 
-The right figure below defines the GAN architecture in folder `GAN`.
+The right figure below defines the **GAN** architecture in folder `GAN`.
+<img width="450" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/eef5f203-230a-44fe-b605-2ca1965be223">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/057e347f-38ce-4eff-9082-9d90bd6419e6/a9195870-ff59-4142-895e-1bee27f17015/Untitled.png)
 
 ## Performance
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/057e347f-38ce-4eff-9082-9d90bd6419e6/09653240-df83-4b48-94b7-6ba3b8b6d114/Untitled.png)
+<img width="441" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/47b81434-fd5f-44f7-8183-7d4db16a1003">
+
 
 Both R2 comparison and discriminative score generally exhibited lower values when using IP2Vec compared to not using it in most cases. Particularly, the GMMN and SigCWGAN models demonstrated superior performance in terms of discriminative score when IP2Vec was applied for all data types. When examining the performance for each data type, web data showed the largest improvement in terms of R2 comparison compared to other data types. Specifically, when the GMMN model was trained on web data, it achieved a value of 0.76, but when IP2Vec was introduced, it showed a performance of 0.22, resulting in a remarkable performance difference of 0.54. This result indicates that even models like GMMN, which do not capture the characteristics of time series data well, can achieve more effective data generation by leveraging IP2Vec.
