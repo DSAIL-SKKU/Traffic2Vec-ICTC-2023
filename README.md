@@ -15,6 +15,7 @@ The dataset comprises network packets gathered between February 20th and October
 - *Video*: Video playback activity includes traffic from applications consuming videos (e.g., from Twitch or YouTube).
 - *Web*: Web browsing consists of traffic for all activities within a web page such as downloading images or ads.
 
+
 ## Run
 
 ### 1. IP2Vec
@@ -25,7 +26,7 @@ python ip2Vec/train.py --data --dir
 python ip2Vec/train.py bulk data/bulk_vec
 ```
 
-—data: A factor that selects data for conversion into a vector format/
+—data: A factor that selects data for conversion into a vector format.
 
 
 —dir: A factor that selects a directory in which data will be stored.
@@ -50,7 +51,10 @@ The file takes models trained from pre-training and conducts transfer learning o
 
 
 <br/>
+
+
 The left figure below defines the **IP2Vec** architecture in folder `ip2Vec/model.py`.
+
 <br/>
 <img width="450" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/eef5f203-230a-44fe-b605-2ca1965be223">
 
