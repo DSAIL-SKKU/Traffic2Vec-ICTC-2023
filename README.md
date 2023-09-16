@@ -59,6 +59,7 @@ The left figure below defines the **IP2Vec** architecture in folder `ip2Vec/m
 <img width="450" alt="image" src="https://github.com/DSAIL-SKKU/IP2Vec-ICTC-2023/assets/60170358/eef5f203-230a-44fe-b605-2ca1965be223">
 
 ---
+
 ### 2. GAN
 In this paper, we trained and generated data using four widely-used GAN models. The descriptions of each model is summarized as follows.
 
